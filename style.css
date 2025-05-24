@@ -11,7 +11,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 5vh;
+}
+
+#menu{
+   cursor:pointer;
+    font-size: 3rem;
+}
+.box{
+    flex-direction: column;
+    border-radius: 50%;
+}
+.mode{
+    padding-right: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+#off{
+    padding-right: 4vh;
+    cursor:pointer;
+    font-size: 3rem;
 }
 
 .navbar .icon{
