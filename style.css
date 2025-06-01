@@ -1,12 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     background: linear-gradient(to bottom, green, limegreen);
-    width: 100vw;
-    height: 15vh;
     padding: 5vh;
     display: flex;
     flex-direction: row;
@@ -15,169 +14,206 @@
     margin-bottom: 5vh;
 }
 
-#menu{
-   cursor:pointer;
-    font-size: 3rem;
-}
-.box{
-    flex-direction: column;
-    border-radius: 50%;
-}
-.mode{
-    padding-right: 2vh;
-    display: flex;
-    flex-direction: row;
-}
-#off{
-    padding-right: 4vh;
-    cursor:pointer;
+#menu {
+    cursor: pointer;
     font-size: 3rem;
 }
 
-.navbar .icon{
+.mode {
+    padding-right: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 4vw;
+    padding: 0.25vw;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.navbar .icon {
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20000px;
 }
-.logo{
+
+.logo {
     border-radius: 50%;
     height: 80px;
     width: 80px;
 }
-.second{
+
+.second {
     display: flex;
     justify-content: space-evenly;
 }
 
-.update{
+.update {
     background: linear-gradient(to bottom, green, limegreen);
-    width: 100vw;
-    height: 15vh;
-    padding: 5vh;
+    /* width: 100vw */
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 5vh;
+    height: 5rem;
+    padding: 0 1rem;
 }
-.updates{
-    height: 10vh;
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.updates span{
     width: 25vw;
     background: white;
     border: 0.125px solid #c5c0bf;
     border-radius: 10px 10px 0px 0px;
     display: flex;
+    padding: 4px 0;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     font-weight: 700;
     color: grey;
-    margin-bottom: 10vh;
 }
-.view{
-    height: 5vh;
+
+.view-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    height: 100%;
+}
+
+.view {
     width: 15vw;
+    padding: 0.6rem 1rem;
+    margin: 4px 0;
     border: 2px solid white;
-    border-radius:6px;
+    border-radius: 6px;
     color: white;
     background: transparent;
     text-transform: uppercase;
 }
-.view:hover{
-    color:red;
+
+.view:hover {
+    color: red;
     border: 2px solid red;
     cursor: pointer;
 }
 
-.comics{
+.comics {
     display: flex;
     flex-direction: column;
     list-style: none;
     align-items: center;
     box-shadow: 0px 0px 10px 0px #c5c0bf;
 }
-.c{
+
+.c {
     height: 25vh;
-    width: 100vw;
-}
-#c1{
-
-}
-#c2{
-
-}
-#c3{
-
+    /* width: 100vw */
 }
 
-.next{
-    height: 7vh;
+#c1 {}
+
+#c2 {}
+
+#c3 {}
+
+.next {
     font-size: 1.2rem;
-    width: 12vh;
     margin-bottom: 2vh;
     border-radius: 5px;
     font-weight: 500;
+    padding: 1rem;
     color: white;
     border: 0px solid white;
     background-color: seagreen;
 }
-.next:hover{
-    color:grey;
+
+.next:hover {
+    color: grey;
     cursor: pointer;
 }
 
-.homepage{
+.homepage {
     margin-bottom: 3vh;
-    border:0.125px solid #c5c0bf;
+    border: 0.125px solid #c5c0bf;
 }
 
-.history{
-    height:15vh;
+.history {
     border: 0.125px solid #c5c0bf;
     margin-bottom: 5vh;
 }
-.his{
+
+.his {
     background: linear-gradient(to bottom, green, limegreen);
-    width: 100vw;
-    height: 5vh;
     padding: 2vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 1.3rem;
     font-weight: 500;
-    color:black;   
+    color: black;
 }
-.hist{
+
+.hist {
     padding: 2vh;
-    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
 }
-.ADS{
-     height:15vh;
+
+.ADS {
     border: 0.125px solid #c5c0bf;
     margin-bottom: 5vh;
 }
-.ad{
+
+.ad {
     background: linear-gradient(to bottom, green, limegreen);
-    width: 100vw;
-    height: 5vh;
     padding: 2vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 1.3rem;
     font-weight: 500;
-    color:black;   
+    color: black;
 }
-.footer{
+
+.footer {
     background: linear-gradient(to bottom, green, limegreen);
-    width: 100vw;
-    height: 5vh;
     padding: 2vh;
     display: flex;
     flex-direction: row;
@@ -185,24 +221,24 @@
     justify-content: space-evenly;
     font-size: 1.1rem;
     font-weight: 500;
-    color:black;   
+    color: black;
 }
-.h{
+
+.h {
     text-decoration: none;
     color: white;
 }
-.h:hover{
-    color:red;
+
+.h:hover {
+    color: red;
 }
-.reference{
+
+.reference {
     background-color: black;
     color: white;
-    height: 20vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5vh;
     text-align: center;
 }
-
