@@ -20,7 +20,7 @@
 }
 
 .mode {
-    padding-right: 2vh;
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
