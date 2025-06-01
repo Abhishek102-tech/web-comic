@@ -97,7 +97,7 @@
     border: 0.125px solid #c5c0bf;
     border-radius: 10px 10px 0px 0px;
     display: flex;
-    padding: 1rem;
+    padding:clamp(1rem,1.2rem,1.5rem);
     justify-content: center;
     align-items: center;
     font-size: clamp(0.8rem, 1.2rem, 1.5rem);
@@ -112,11 +112,11 @@
     align-items: center;
     padding: 0.5rem 0;
     height: 100%;
-    width: 10%;
+    width: clamp(10%,15%, 20%);
 }
 
 .view {
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 0.6rem;
     margin: 4px 0;
     border: 2px solid white;
     border-radius: 6px;
