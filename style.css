@@ -29,7 +29,7 @@
 
 .box {
     padding: 0.25vw;
-    padding-right: clamp(1vw,2vw,4vw);
+    padding-right: clamp(2vw,3vw,4vw);
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.33);
     border-radius: 50px;
