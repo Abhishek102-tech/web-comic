@@ -6,7 +6,7 @@
 
 .navbar {
     background: linear-gradient(to bottom, green, limegreen);
-    padding: 5vh;
+    padding: 2.5vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
